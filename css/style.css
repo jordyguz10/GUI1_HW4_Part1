@@ -1,0 +1,98 @@
+/*File: style.css
+    GUI Assignment: Interactive Dynamic Table
+    Jordy Guzman, UMass Lowell Computer Science, Jordy_guzmanalcaraz@student.uml.edu (c) 2023 
+    by Guzman. All rights reserved. May be freely copied or excerpted for educational 
+    purposes with credit to the author.
+*/
+.error {
+    color: red; /* Apply red color to error messages */
+}
+body{
+    font-family: Helvetica;
+    background-color: #E6E3D3;
+}
+/*Styles scrollable container where table is */
+div{
+    overflow: scroll;
+    margin: auto;
+    width: 75%;
+    height: 1000px;
+}
+/*Main header styling */
+h1{
+    font-size: 36px;
+    padding-bottom: 25px;
+    text-align: center;
+    text-decoration: underline;
+    color: purple;
+}
+h2{
+    font-size: 36px;
+    padding-bottom: 25px;
+    text-align: center;
+    text-decoration: underline;
+    color: purple;
+}
+/*Styling of form box */
+form {
+    margin: auto;
+    display: block;
+    color:black;
+    font-family: 'Trebuchet MS';
+    max-width: 425px;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: skyblue;
+    border: 20px solid purple;
+    display: grid;
+}
+/*Add padding between text and box */
+label{
+    padding: 10px;
+}
+input[type=number] {
+    padding: 10px; 
+    border: 2px solid #ccc; 
+    border-radius: 5px;
+}
+/*adding style and padding to button */
+input[type=submit]{
+    color: white;
+    font-family: Georgia;
+    font-weight: bold;
+    background-color: purple;
+    margin-top: 15px;
+    padding: 10px;
+}
+input[type=button]{
+    color: white;
+    font-family: Georgia;
+    font-weight: bold;
+    background-color: purple;
+    margin-top: 15px;
+    padding: 10px;
+}
+/* general styling of table */
+table{
+    color: black;
+    margin: auto;
+    background-color: black;
+    font-weight: bold;
+}
+/*Set styling of header of table */
+th{
+    color: white;
+    background-color: purple;
+    padding: 10px;
+}
+td{
+    text-align: center;
+}
+/*Alternate background color of each row in table*/
+tr:nth-child(even){
+    background-color: #7DF9FF;
+}
+tr:nth-child(odd){
+    background-color: #5E8FC7;
+}
